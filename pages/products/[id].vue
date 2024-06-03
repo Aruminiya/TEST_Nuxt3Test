@@ -1,16 +1,15 @@
 <template>
-  <p>產品ID: {{ id }}</p>
+  <ProductDetal :product="oneProduct"/>
 </template>
 
-<script>
-export default {
-    data(){
-        return{
-            id: useRoute().params.id,
-        }
-    },
-    mounted() {
-        // console.log(this.id)
-    }
-}
+<script setup>
+definePageMeta({
+  layout: 'product',
+});
+
+const id = useRoute().params.id;
+
+const { data } = await useFetch('https://fakestoreapi.com/products/'+id);
+const oneProduct = data._value;
+console.log(oneProduct);
 </script>
