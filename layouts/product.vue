@@ -20,9 +20,6 @@
   </template>
 
   <script>
-    definePageMeta({
-        
-    })
   </script>
   
   <style scoped>

@@ -6,6 +6,7 @@
             <li><NuxtLink to="/">首頁</NuxtLink></li>
             <li><NuxtLink to="/about">關於我們</NuxtLink></li>
             <li><NuxtLink to="/products">產品總覽</NuxtLink></li>
+            <li><NuxtLink to="/uiTest">NuxtUI 測試</NuxtLink></li>
         </ul>
     </nav>
   </header>
