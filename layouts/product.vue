@@ -16,13 +16,13 @@
                 <NuxtLink to="/about" class="link text-white hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">關於我們</NuxtLink>
                 <NuxtLink to="/products" class="link text-white hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">產品總覽</NuxtLink>
                 <NuxtLink to="/uiTest" class="link text-white hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">NuxtUI 測試</NuxtLink>
+                <NuxtLink to="/vueUseTest" class="link text-white hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">VueUse 測試</NuxtLink>
               </div>
             </div>
           </div>
         </div>
       </div>
     </nav>
-
   </header>
 
   <!-- 輸出組建內容 -->

@@ -1,4 +1,7 @@
 <template>
+  <Head>
+    <Title>Nuxt 產品 | {{ oneProduct.title }}</Title>
+  </Head>
   <ProductDetal :product="oneProduct"/>
 </template>
 

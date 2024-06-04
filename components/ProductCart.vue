@@ -4,7 +4,7 @@
         <img :src="product.image" alt="">
         </template>
 
-        <h1 class="h1">{{product.title}}</h1>
+        <h5 class="h1">{{product.title}}</h5>
         <p class="truncate">{{ product.description }}</p>
 
         <template #footer>
