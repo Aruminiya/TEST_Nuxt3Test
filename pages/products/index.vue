@@ -12,6 +12,6 @@ definePageMeta({
 });
 
 const { data } = await useFetch('https://fakestoreapi.com/products');
-const products = data._value;
+const products = data.value;
 console.log(products);
 </script>

@@ -40,30 +40,32 @@
     <UBreadcrumb :links="links" />
 </template>
 
-<script>
-export default {
-    data(){
-        return{
-            links:[{
-            label: 'Home',
-            icon: 'i-heroicons-home',
-            to: '/'
-            }, {
-            label: 'Navigation',
-            icon: 'i-heroicons-square-3-stack-3d'
-            }, {
-            label: 'Breadcrumb',
-            icon: 'i-heroicons-link'
-            }],
-        }
-    },
-    methods: {
-        btnClick(){
-            console.log('按鈕點擊');
-        }
-    },
-    mounted() {
-        
-    }
-}
+<script setup>
+
+const links = ref([{
+  label: 'Home',
+  icon: 'i-heroicons-home',
+  to: '/'
+}, {
+  label: 'Navigation',
+  icon: 'i-heroicons-square-3-stack-3d'
+}, {
+  label: 'Breadcrumb',
+  icon: 'i-heroicons-link'
+}]);
+
+
+
+const btnClick = () => {
+    console.log('按鈕點擊');
+    };
+
+onMounted(() => {
+    console.log('按鈕點擊');
+    console.log(links.value);
+})
 </script>
+
+<style lang="scss">
+
+</style>

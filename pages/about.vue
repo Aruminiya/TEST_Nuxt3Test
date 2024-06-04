@@ -2,5 +2,8 @@
     <div>
       <p>關於我們頁面</p>
     </div>
-  </template>
-  
+</template>
+
+<script setup>
+  defineProps(['error']);
+</script>
