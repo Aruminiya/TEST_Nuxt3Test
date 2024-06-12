@@ -34,6 +34,22 @@ const uiShowLinks = ref([
         to:`${rootRouter}/checkbox`,
         name: 'Checkbox',
     },
+    {
+        to:`${rootRouter}/chip`,
+        name: 'Chip',
+    },
+    {
+        to:`${rootRouter}/command-palette`,
+        name: 'CommandPalette',
+    },
+    {
+        to:`${rootRouter}/container`,
+        name: 'Container',
+    },
+    {
+        to:`${rootRouter}/context-menu`,
+        name: 'ContextMenu',
+    },
 ])
 </script>
 

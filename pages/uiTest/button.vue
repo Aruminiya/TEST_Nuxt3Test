@@ -1,7 +1,7 @@
 <template>
     <div class="grid grid-cols-1 gap-4 p-5">
         <section>
-            <h2>{{ route.path.split('/')[route.path.split('/').length - 1].charAt(0).toUpperCase() + route.path.split('/')[route.path.split('/').length - 1].slice(1)}}</h2>
+            <h2>Button</h2>
             <NuxtLink class="alink" target="_blank" :to="'https://ui.nuxt.com/components/' + route.path.split('/')[route.path.split('/').length - 1]">
                 <li>官方文件</li>
             </NuxtLink>
