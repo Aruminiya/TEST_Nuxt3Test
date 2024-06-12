@@ -50,6 +50,10 @@ const uiShowLinks = ref([
         to:`${rootRouter}/context-menu`,
         name: 'ContextMenu',
     },
+    {
+        to:`${rootRouter}/date-picker`,
+        name: 'DatePicker',
+    },
 ])
 </script>
 
