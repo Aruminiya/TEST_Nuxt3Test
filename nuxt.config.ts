@@ -20,5 +20,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  
+  ui: {
+    // 在这里配置 NuxtUI 组件的默认属性
+  }
 })
