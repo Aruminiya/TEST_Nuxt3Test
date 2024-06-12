@@ -14,6 +14,5 @@
     method: 'post',
     body: {age: 30}
   }).data;
-  console.log(getData, postData)
   const test = ref('hya!');
 </script>
