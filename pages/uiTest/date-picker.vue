@@ -34,6 +34,7 @@
           </template>
         </UPopover>
         </section>
+        {{ selected }}
     </div>
 </template>
 
