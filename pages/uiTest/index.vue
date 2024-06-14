@@ -54,6 +54,22 @@ const uiShowLinks = ref([
         to:`${rootRouter}/date-picker`,
         name: 'DatePicker',
     },
+    {
+        to:`${rootRouter}/divider`,
+        name: 'Divider',
+    },
+    {
+        to:`${rootRouter}/dropdown`,
+        name: 'Dropdown',
+    },
+    {
+        to:`${rootRouter}/range`,
+        name: 'Range',
+    },
+    {
+        to:`${rootRouter}/select-menu`,
+        name: 'SelectMenu',
+    },
 ])
 </script>
 
