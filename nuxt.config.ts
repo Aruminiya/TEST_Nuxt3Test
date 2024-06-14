@@ -1,8 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  css: ['~/assets/scss/main.scss'],
+  css: [
+    '~/assets/scss/main.scss',
+  ],
   modules: ['@nuxt/ui','@vueuse/nuxt'],
+  plugins: [
+    '~/plugins/vcalendar.js',
+  ],
   app: {
     head: {
       title: 'Nuxt 學習測試',
@@ -20,7 +25,4 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  ui: {
-    // 在这里配置 NuxtUI 组件的默认属性
-  }
 })

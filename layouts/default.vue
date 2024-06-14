@@ -17,6 +17,7 @@
                 <NuxtLink to="/products" class="link hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">產品總覽</NuxtLink>
                 <NuxtLink to="/uiTest" class="link hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">NuxtUI 測試</NuxtLink>
                 <NuxtLink to="/vueUseTest" class="link hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">VueUse 測試</NuxtLink>
+                <NuxtLink to="/vCalendar" class="link hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">vCalendar 測試</NuxtLink>
               </div>
             </div>
           </div>

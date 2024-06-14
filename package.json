@@ -10,7 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@fullcalendar/core": "^6.1.14",
+    "@fullcalendar/daygrid": "^6.1.14",
+    "@fullcalendar/interaction": "^6.1.14",
+    "@fullcalendar/timegrid": "^6.1.14",
+    "@fullcalendar/vue3": "^6.1.14",
     "@nuxt/ui": "^2.16.0",
+    "@popperjs/core": "^2.11.8",
     "axios": "^1.7.2",
     "date-fns": "^2.30.0",
     "nuxt": "^3.11.2",
